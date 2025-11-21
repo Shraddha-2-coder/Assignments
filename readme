@@ -1,0 +1,58 @@
+# Assignment 1 – Basic Arithmetic Operations in Python
+
+This repository contains a Python program that performs the four fundamental arithmetic operations on two numbers entered by the user.
+
+---
+
+## 📌 Features
+
+- Takes **two integer inputs** from the user.
+- Performs:
+  - Addition  
+  - Subtraction  
+  - Multiplication  
+  - Division  
+- Displays each result clearly to the user.
+
+---
+
+## 🧠 How the Program Works
+
+1. Prompts the user to enter the first number.  
+2. Prompts for the second number.  
+3. Performs calculations using basic arithmetic operators:
+   - `+` for addition  
+   - `-` for subtraction  
+   - `*` for multiplication  
+   - `/` for division  
+4. Prints all results line by line.
+
+---
+
+## 🚀 Running the Program
+
+### **Prerequisites**
+- Python 3.x installed on your system.
+
+### **Steps**
+```bash
+python ASSIGNMENT_1.py
+Enter the first number:
+Enter the second number:
+Addition: <value>
+Subtraction: <value>
+Multiplication: <value>
+Division: <value>
+num_1 = int(input("Enter the first number: "))
+num_2 = int(input("Enter the second number: "))
+Addition = num_1 + num_2
+Subtraction = num_1 - num_2
+Multiplication = num_1 * num_2
+Division = num_1 / num_2
+print("Addition: ", Addition)
+print("Subtraction: ", Subtraction)
+print("Multiplication: ", Multiplication)
+print("Division: ", Division)
+/project-folder
+│── ASSIGNMENT_1.py
+│── README.md
